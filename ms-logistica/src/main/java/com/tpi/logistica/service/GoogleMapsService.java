@@ -39,7 +39,7 @@ public class GoogleMapsService {
         try {
             // URL hardcodeada para pruebas
             String url = String.format(
-                "https://maps.googleapis.com/maps/api/distancematrix/json?destinations=%s&origins=%s&units=metric&key=AIzaSyBzEIPhIq9sjktQSXUGi10qhJkp3blmb20",
+                "https://maps.googleapis.com/maps/api/distancematrix/json?destinations=%s&origins=%s&units=metric&key=YOUR_API_KEY_HERE",
                 java.net.URLEncoder.encode(destinoDireccion, "UTF-8"),
                 java.net.URLEncoder.encode(origenDireccion, "UTF-8")
             );
