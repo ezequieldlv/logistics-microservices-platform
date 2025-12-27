@@ -1,0 +1,33 @@
+# --- Compilados y Binarios ---
+/target/
+/build/
+*.class
+*.jar
+*.war
+*.ear
+
+# --- IDEs  ---
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+
+# --- Logs y Temporales ---
+*.log
+*.tmp
+
+# --- OS Junk ---
+Thumbs.db
+.DS_Store
+
+# --- Maven Wrapper ---
+.mvn/
+mvnw
+mvnw.cmd
+
+# --- Secrets ---
+*.env
